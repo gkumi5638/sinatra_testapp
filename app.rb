@@ -21,3 +21,8 @@ end
 get '/erb_template_page' do
   erb:erb_template_page
 end
+
+# markdown
+get '/markdown_template_page' do
+  markdown :markdown_template_page
+end
