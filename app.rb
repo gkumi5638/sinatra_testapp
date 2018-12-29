@@ -16,3 +16,8 @@ end
 get '/hello/*' do |name|      #ワイルドカード部分が変数nameに格納される。
   "hello #{name}. how are you?"
 end
+
+# erb
+get '/erb_template_page' do
+  erb:erb_template_page
+end
